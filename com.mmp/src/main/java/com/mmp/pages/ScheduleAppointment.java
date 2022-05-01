@@ -122,7 +122,3 @@ public class ScheduleAppointment extends DriverScript {
 				}
 			}
 		}
-			
-		
-		
-	
