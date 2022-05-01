@@ -16,6 +16,8 @@ public class ScheduleAppointment extends BaseTest
 		sna.date();
 		sna.textElement();
 		sna.submit();
+		sna.Table();
+		ehp.clickLogout();
 	}
 
 }

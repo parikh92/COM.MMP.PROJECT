@@ -1,5 +1,7 @@
 package com.mmp.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,6 +21,7 @@ public class ScheduleAppointment extends DriverScript {
 	@FindBy(xpath = "//*[@id=\"ChangeHeatName\"]")WebElement continuElement;
 	@FindBy(xpath = "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div/form/textarea") WebElement textElement;
 	@FindBy(xpath = "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[3]/input") WebElement buttonSubmitElement;
+	@FindBy(xpath = "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/table") WebElement tableElement;
 	
 	//----------------------------------------PAGE INITIALIZATION-------------------------------//
 	
@@ -98,4 +101,28 @@ public class ScheduleAppointment extends DriverScript {
 			buttonSubmitElement.click();
 		}
 		
-	}
+		public void Table()
+		{
+			String columnFirst ="/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/table/tbody/tr[0";
+			String columnLast = "]/td";
+			String column;
+			List<WebElement> appoinmentColumn;
+			
+			for(int i=0; i<=1; i++)
+			{
+				column = columnFirst+i+columnLast;
+				
+				appoinmentColumn = driver.findElements(By.xpath(column));
+				
+				for (int j=0;j<appoinmentColumn.size();j++)
+				{
+					System.out.println(appoinmentColumn.get(j).getText()+"  ");
+				}
+				System.out.println();
+				}
+			}
+		}
+			
+		
+		
+	
