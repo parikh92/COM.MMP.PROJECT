@@ -18,14 +18,14 @@ public class Helper extends DriverScript{
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
 	public static String captureScreenshot(WebDriver driver)
 	{
 		 File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		 String screenpath = "C:\\Users\\parik\\git\\QA.AUTOMATION.COM\\atreports\\screenshorts\\screen.png";
+		 String screenpath = "C:\\Users\\parik\\git\\COM.QA.MMP\\com.mmp\\atreports\\screensshorts";
 		 try {
 			FileHandler.copy(src, new File(screenpath));
 		}
