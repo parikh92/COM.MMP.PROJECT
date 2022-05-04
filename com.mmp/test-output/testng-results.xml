@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-01T02:02:09Z" name="Default suite" finished-at="2022-05-01T02:03:29Z" duration-ms="80549">
+  <suite started-at="2022-05-04T01:37:52Z" name="Default suite" finished-at="2022-05-04T01:38:15Z" duration-ms="23087">
     <groups>
     </groups>
-    <test started-at="2022-05-01T02:02:09Z" name="Default test" finished-at="2022-05-01T02:03:29Z" duration-ms="80549">
-      <class name="com.mmp.tests.ScheduleAppointment">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mmp.tests.ScheduleAppointment@768fc0f2]" started-at="2022-05-01T02:02:09Z" name="setUp" finished-at="2022-05-01T02:02:14Z" duration-ms="5131" status="PASS">
+    <test started-at="2022-05-04T01:37:52Z" name="Default test" finished-at="2022-05-04T01:38:15Z" duration-ms="23087">
+      <class name="com.mmp.tests.MessagesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mmp.tests.MessagesTest@768fc0f2]" started-at="2022-05-04T01:37:52Z" name="setUp" finished-at="2022-05-04T01:37:57Z" duration-ms="5020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScheduleAppointment()[pri:0, instance:com.mmp.tests.ScheduleAppointment@768fc0f2]" started-at="2022-05-01T02:02:14Z" name="testScheduleAppointment" finished-at="2022-05-01T02:03:28Z" duration-ms="74739" status="PASS">
+        <test-method signature="messagestest()[pri:0, instance:com.mmp.tests.MessagesTest@768fc0f2]" started-at="2022-05-04T01:37:57Z" name="messagestest" finished-at="2022-05-04T01:38:15Z" duration-ms="17420" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testScheduleAppointment -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mmp.tests.ScheduleAppointment@768fc0f2]" started-at="2022-05-01T02:03:28Z" name="tearDown" finished-at="2022-05-01T02:03:29Z" duration-ms="661" status="PASS">
+        </test-method> <!-- messagestest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mmp.tests.MessagesTest@768fc0f2]" started-at="2022-05-04T01:38:15Z" name="tearDown" finished-at="2022-05-04T01:38:15Z" duration-ms="629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mmp.tests.ScheduleAppointment -->
+      </class> <!-- com.mmp.tests.MessagesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

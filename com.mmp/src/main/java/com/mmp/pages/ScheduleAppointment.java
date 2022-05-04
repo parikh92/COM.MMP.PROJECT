@@ -52,7 +52,7 @@ public class ScheduleAppointment extends DriverScript {
 		
 		public void date()
 		{
-			String month = "June";
+			String month = "May";
 			String year = "2022";
 			String day = "20";
 			driver.switchTo().frame("myframe");
