@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mmp.tests.ScheduleAppointment">
+      <class name="com.mmp.tests.MessagesTest">
         <methods>
+          <include name="messagestest"/>
           <include name="setUp"/>
-          <include name="testScheduleAppointment"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.mmp.tests.ScheduleAppointment -->
+      </class> <!-- com.mmp.tests.MessagesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
