@@ -13,9 +13,10 @@ public class MessagesTest extends BaseTest {
 		lp.clickLogin();
 		mp.Messagesbutton();
 		mp.Contact("Monthly Visit");
-		mp.Subject("To meet doctor follow-up");
+		mp.Subject("To meet doctor for cold");
 		mp.Send();
 		ehp.clickLogout();
+		mp.admin();
 	}
 	
 }

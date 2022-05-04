@@ -21,7 +21,7 @@ public class ScheduleAppointment extends DriverScript {
 	@FindBy(xpath = "//*[@id=\"ChangeHeatName\"]")WebElement continuElement;
 	@FindBy(xpath = "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/div/div[2]/div/form/textarea") WebElement textElement;
 	@FindBy(xpath = "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[3]/input") WebElement buttonSubmitElement;
-	@FindBy(xpath = "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/table") WebElement tableElement;
+	//@FindBy(xpath = "/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div[2]/table") WebElement tableElement;
 	
 	//----------------------------------------PAGE INITIALIZATION-------------------------------//
 	
