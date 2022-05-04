@@ -16,8 +16,6 @@ public class MessagesTest extends BaseTest {
 		mp.Subject("To meet doctor follow-up");
 		mp.Send();
 		ehp.clickLogout();
-		
-		
 	}
 	
 }

@@ -49,7 +49,6 @@ public class Messages extends DriverScript {
 		Helper.fn_Sleep();
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		
 	}
 	
 }
